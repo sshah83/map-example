@@ -1,14 +1,8 @@
-
 import './App.css';
-import { MapExample } from "./MapExample"
+import { MapExample } from "./MapExample";
 
-function App() {
-  return (
-    <div style={{ justifyContent: 'center'}}>
-    <p>Map POC Example</p>
-    <MapExample />
-    </div>
-  )
-} 
+const App = () => (
+        <MapExample />
+  );
 
 export default App;
