@@ -2,7 +2,7 @@ import './App.css';
 import { MapExample } from "./MapExample";
 
 const App = () => (
-        <MapExample />
+    <MapExample />
   );
 
 export default App;
